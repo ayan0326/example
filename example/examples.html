@@ -1,0 +1,123 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="demo">点击改变</p>
+    <button type="button" onclick='myFunction()'>点击</button>
+    <p id="content">添加内容</p>
+
+
+    <script src='example.js'></script>
+    <script>
+        // function myFunction() {
+        //     document.getElementById('demo').innerHTML = '哈哈哈哈'
+        // }
+        // window.alert(1111)
+
+        // 后赋值的会掩盖前面的值
+        document.getElementById('content').innerHTML = 12345678;
+
+        var x, y, z;
+        x = 10;
+        y = 22;
+        z = x + y;
+        document.getElementById('content').innerHTML = z;
+
+
+
+        var a = true;
+        // console.log(Object.prototype.toString.call(a))
+
+        text1 = 999;
+        text2 = 'hahha';
+        text3 = text1 + '' + text2;
+        // console.log(text3);
+
+        var a1 = "dfghjkl98yt";
+        //console.log(a1.length)
+        // console.log(a1.indexOf('l'))
+
+
+        // console.log('-------',1)
+        setTimeout(function () {
+            // console.log(2);
+            new Promise(function (resolve) {
+                // console.log(3);
+                resolve();
+            }).then(function () {
+                // console.log(4)
+            })
+        })
+
+
+
+        var arr = [1, 2, 3, 4, 5, 6, 7];
+        console.log('------', arr.slice(4, 6))
+        // [5,6]
+
+
+        // var p = new Promise(function (resolve, reject) {
+        //     var timer = setTimeout(function () {
+        //         console.log('执行操作1');
+        //         resolve('这是数据1');
+        //     }, 1000);
+        // });
+        // p.then(function (data) {
+        //     console.log(data);
+        //     console.log('这是成功操作');
+        // });
+
+
+
+        var p = new Promise((resolve, reject) => {
+            setTimeout(() => {
+                // console.log('成功',resolve)
+                resolve('成功')
+            }, 1000)
+        })
+    </script>
+    <script>
+        window.addEventListener('load', function () {
+
+            // Checking if Web3 has been injected by the browser (Mist/MetaMask)
+            if (typeof web3 !== 'undefined') {
+                // Use Mist/MetaMask's provider
+                web3js = new Web3(web3.currentProvider);
+            } else {
+                // Handle the case where the user doesn't have Metamask installed
+                // Probably show them a message prompting them to install Metamask
+            }
+
+            // Now you can start your app & access web3 freely:
+            startApp()
+
+        })
+    </script>
+
+</body>
+
+</html> -->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+</html>

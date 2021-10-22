@@ -1,0 +1,8 @@
+.page-content {
+    position: relative;
+    height: 100vh;
+    padding: 10px 20px;
+    overflow: auto;
+    color: #666;
+    font-size: 14px;
+}

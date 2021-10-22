@@ -1,0 +1,76 @@
+.page {
+    width: 100%;
+    padding: 20px 0 0 30px;
+    background-color: rgb(120, 134, 179);
+}
+
+.box {
+    width: 200px;
+    height: 80px;
+    margin-bottom: 30px;
+    border: 1px solid white;
+    color: aliceblue;
+
+    border-radius: 10px;
+    box-shadow: 3px -3px 3px .0625rem rgb(230, 223, 191);
+    /* X轴偏移量、Y轴偏移量、模糊半径、扩散半径和颜色 */
+}
+
+.box::before {
+    content: '❤️';
+}
+
+.box::after {
+    content: 'delicious';
+}
+
+.title {
+    width: 410px;
+    height: 300px;
+    border-image: url(./box.jpeg) 30 30 round;
+    -webkit-border-image: url(./box.jpeg) 30 30 round;
+    /* Safari 5 and older */
+    -o-border-image: url(./box.jpeg) 30 30 round;
+    /* Opera */
+}
+
+.backgrounds {
+    width: 460px;
+    height: 400px;
+    background-image: url(./222.jpeg), url(./111.jpeg);
+    background-position: left top, right bottom;
+    background-repeat: repeat, no-repeat;
+}
+
+.origin {
+    width: 480px;
+    height: 200px;
+    color: white;
+    padding: 60px;
+    border: 1px solid #000;
+    /* 图片位置指定*/
+    /* background: url(./222.jpeg);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-origin: border-box; */
+
+    /* 背景剪裁,从指定位置开始 */
+    background: pink;
+    background-clip: border-box;
+}
+
+
+/* 渐变 */
+
+/* @font-face
+{
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+} */
+
+.change {
+    width: 100%;
+    height: 300px;
+    /* font-family:myFirstFont; */
+    background-image: linear-gradient(to right, skyblue, orange, pink);
+}
